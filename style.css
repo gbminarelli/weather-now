@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #131313;
+}
+
+/* Root */
+
+#root > div {
+  display: inline-block;
+}
+
+#root {
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Search Input */
+
+#search-input {
+  border-radius: 25px;
+  border: 1px solid #ececec;
+  padding: 0.5rem 1rem;
+}
+
+/* Search Button */
+
+#search-button {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid #ececec;
+  padding: 0.5rem 1rem;
+  background-color: #ececec;
+  margin: 1rem auto;
+  margin-bottom: 3rem;
+}
+
+#search-button:hover {
+  border-color: #bfbfbf;
+}
+
+#search-button:focus,
+#search-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Output */
+
+.output {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+.output div {
+  margin: 0;
+}
+
+.output > div {
+  margin-bottom: 3rem;
+}
+
+.output-text {
+  font-size: 0.8rem;
+}
+
+.output-unit {
+  font-size: 0.6em;
+  vertical-align: super;
+}
+
+#temp {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+#name {
+  margin-bottom: 0.5rem;
+}
+
+#output-cell-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+}

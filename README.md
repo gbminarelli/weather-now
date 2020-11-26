@@ -34,7 +34,7 @@ npm install
 
 3. Add API Key:
 
-Create an `api-key.txt` file, place it inside of the `server` folder and copy and paste your own API Key (https://openweathermap.org/appid) inside of said text file. It should be a small string, no spaces or line breaks
+Create an `api-key.txt` file, place it inside of the `server` folder and copy and paste your own API Key (https://openweathermap.org/appid) inside of said text file. It should be a small string, no spaces or line breaks.
 
 ### Executing
 
